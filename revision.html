@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML Tags Revision Example</title>
+
+</head>
+<body>
+
+  <header>
+    <h1>Website Header</h1>
+    <nav>
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#form-area">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1">
+      <article>
+        <h2>Article Title</h2>
+        <p>This is a paragraph in the article with some <strong>strong</strong> text, <em>emphasized</em> text, and a <mark>highlighted</mark> part.</p>
+        <p>Here's a line break<br />to demonstrate the <code>&lt;br&gt;</code> tag.</p>
+        <aside>
+          <p>This is an aside — extra info related to the article.</p>
+        </aside>
+        <figure>
+          <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+          <figcaption>Figure 1: Example placeholder image.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="section2">
+      <h2>Lists Example</h2>
+      <p>Unordered list:</p>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+
+      <p>Ordered list:</p>
+      <ol>
+        <li>First step</li>
+        <li>Second step</li>
+        <li>Third step</li>
+      </ol>
+
+      <p>Description list:</p>
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+      </dl>
+    </section>
+
+    <section id="form-area">
+      <h2>Form Example</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="bio">Bio:</label><br />
+        <textarea id="bio" name="bio" rows="4" cols="30"></textarea><br /><br />
+
+        <label for="gender">Gender:</label><br />
+        <select id="gender" name="gender">
+          <option value="">--Select--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Table Example</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Designed By</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Tim Berners-Lee</td>
+            <td>1991</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Håkon Wium Lie</td>
+            <td>1996</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media Example</h2>
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+</body>
+</html>
